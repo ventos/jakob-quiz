@@ -1,0 +1,36 @@
+body div.fullsize {
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+}
+.fullsize img {
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.fullsize .jakob {
+  position: absolute;
+  top: 40%; left: 0;
+  width: 100%;
+  font-size: 60pt;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+}
+
+.hide {
+  display: none;
+}
+
+.fullsize .jakob span {
+  background: white;
+  padding: 1em 1.5em;
+  border-radius: 1em;
+}
+
+.tile {
+  background: #00241b;
+  position: absolute;
+}
